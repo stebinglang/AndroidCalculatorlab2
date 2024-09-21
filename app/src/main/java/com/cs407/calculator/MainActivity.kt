@@ -96,7 +96,7 @@ class MainActivity : AppCompatActivity() {
 
             val intent = Intent(this, ResultActivity::class.java)
             //passes text from myTextField to new activity
-            intent.putExtra("EXTRA_MESSAGE", val1*val2)
+            intent.putExtra("EXTRA_MESSAGE", val1 / val2)
             //start other activity:
             startActivity(intent)
         }
